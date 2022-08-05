@@ -21,7 +21,7 @@ ul {
 
 .top-container {
     background-color: #1f2937;
-    padding-top: 16px; 
+    padding-top: 16px;
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 60px;
@@ -70,7 +70,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 40%;
+    flex: 1;
 }
 
 .placeholder {
@@ -78,21 +78,19 @@ ul {
 }
 
 .hero-button {
-  background-color: #3882f6;
-  color: white;
-  border: none;
-  padding: 6px 25px;
-  border-radius: .5em;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 6px 25px;
+    border-radius: .5em;
 }
 
 .hero {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 35px;
+    gap: 25px;`
 }
 
 .hero-left {
-    flex: 1 1 40%;
+    flex: 1;
 }
