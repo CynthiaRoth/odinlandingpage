@@ -173,9 +173,7 @@ figcaption {
     margin-top: 0px;
 }
 
-
 .action {
-    border: 1px solid black;
     height: 300px;
     background-color: #f9faf8;
     display: flex;
@@ -184,45 +182,29 @@ figcaption {
 }
 
 
-.action-section {
-    border: 1px solid greenyellow;
+.blue-section {
     height: 150px;
     background-color: #3882f6;
     border-radius: .5em;
     min-width: 80%;
-    /* padding-left: 50px; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-}
-
-.action-content {
-    border: 1px solid magenta;
-    flex: 2;
-    margin: 0;
-}
-
-.action-second {
-    border: 1px solid black;
-    color: #e5e7eb;
-    margin-top: 0;
+    gap: 15%;
 }
 
 .action-header {
-    border: 1px solid black;
     color: #f9faf8;
+    font-size: 24px;
     font-weight: normal;
     margin-bottom: 0;
 }
 
-.action-button {
-    border: 1px solid black;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.action-paragraph {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 0;
 }
-
 
 .action button {
     background-color: #3882f6;
@@ -232,16 +214,6 @@ figcaption {
     padding: 6px 30px;
     border-radius: .5em;
 }
-
-
-.action-container {
-    flex: 1;
-    border: 2px solid chartreuse;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 
 footer {
     height: 100px;
