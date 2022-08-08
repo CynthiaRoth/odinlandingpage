@@ -118,7 +118,7 @@ ul {
     height: 150px;
     border: 3px solid #3882f6;
     border-radius: 1rem;
-    flex-shrink: 0
+    flex-shrink: 0;
 }
 
 .img-cap {
@@ -133,11 +133,6 @@ figcaption {
     padding-top: 8px;
     text-align: center;
 }
-
-
-
-
-
 
 .quote {
     background-color: #e5e7eb;
@@ -166,6 +161,7 @@ figcaption {
 
 .attribution {
     font-weight: 900;
-    font-size: 24px;
+    font-size: 20px;
     align-self: flex-end;
 }
+
