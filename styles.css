@@ -165,3 +165,16 @@ figcaption {
     align-self: flex-end;
 }
 
+
+
+
+footer {
+    height: 100px;
+    color: #e5e7eb;
+    font-size: 18px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
