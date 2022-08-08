@@ -20,6 +20,7 @@ ul {
 
 .top-container {
     background-color: #1f2937;
+    height: 500px;
     padding-top: 16px;
     padding-left: 120px;
     padding-right: 120px;
@@ -38,6 +39,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 80px;
 }
 
 ul a {
@@ -55,11 +57,14 @@ ul {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin: 0;
+    padding: 0;
 }
 
 .hero-second {
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: -1.5px;
 }
 
 .img {
@@ -80,13 +85,15 @@ ul {
     background-color: #3882f6;
     color: white;
     border: none;
-    padding: 6px 25px;
+    font-size: 18px;
+    padding: 6px 30px;
     border-radius: .5em;
 }
 
 .hero {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 25px;
 }
 
@@ -166,7 +173,25 @@ figcaption {
 }
 
 
+.action {
+    border: 1px solid black;
+    background-color: #f9faf8;
+}
 
+
+.action-blue {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.action-blue button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    border: 2px solid #f9faf8;
+    padding: 6px 30px;
+    border-radius: .5em;
+}
 
 footer {
     height: 100px;
